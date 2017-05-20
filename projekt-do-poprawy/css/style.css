@@ -55,6 +55,12 @@ body {
   padding: 0 50px;
 }
 
+#about img{
+    width:35%;
+    
+
+}
+
 #about #about-header{
   font-size: 30px;
   text-align: center;
