@@ -4,6 +4,10 @@ body {
     font-size: 14px;
 }
 
+textarea{
+    height:70px;
+}
+
 input[type="text"],
 input[type="email"],
 textarea,
@@ -13,9 +17,9 @@ select {
     border: 1px solid #213b50;
     color: #fff;
     width: 250px;
-    height: 25px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px 0;
+    outline: none;
 }
 
 input:focus,
@@ -23,25 +27,20 @@ textarea:focus,
 select:focus {
     background-color: #4e708c;
     border: 1px solid white;
-    box-shadow: none;
-    outline: none;
 }
 
 input[type="submit"] {
-    height: 40px;
-    width: 70px;
+    margin-top:5px;
     background-color: #1ac056;
     font-weight: 900;
     color: #fff;
+    text-transform: uppercase;
+    border:1px solid #213b50;
+    padding:15px;
 }
 
 input[type="submit"]:hover {
-    height: 40px;
-    width: 70px;
-    background-color: #1ac056;
-    font-weight: 900;
-    color: brown;
+    color: darkcyan;
     cursor: pointer;
-    filter: brightness(0.8);
     transition: 1s;
 }
